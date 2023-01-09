@@ -15,8 +15,10 @@ public class TasteTester {
         WeddingCake weddingCake = new WeddingCake();
         weddingCake.setFlavor("pina colada");
         weddingCake.setPrice(350);
+        weddingCake.setTiers(3);
         System.out.println("Wedding cake flavor: " + weddingCake.getFlavor());
         System.out.println("Wedding cake price: " + weddingCake.getPrice());
+        System.out.println("Wedding cake tiers: " + weddingCake.getTiers());
     }
 }
 

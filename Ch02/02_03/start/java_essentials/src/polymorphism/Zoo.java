@@ -17,7 +17,12 @@ public class Zoo {
         feed(sasha);
     }
 
-    public static void feed(Animal animal){
+    public static void feed(Animal animal){ // can pass any animal object or any subclass of animal
+        if (animal instanceof Dog) {
+            System.out.println("Here's your dog food.");
+        } else {
+            System.out.println("Here's your cat food.");
+        }
 
 
     }
